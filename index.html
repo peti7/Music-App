@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="playlist-container">
+            <div class="title">
+                <p>Playlist</p>
+                <i class='bx bx-x'></i>
+            </div>
+            <ul class="list"></ul>
+        </div>
+        <header>
+            <span class="material-symbols-outlined">
+                queue_music
+            </span>
+        </header>
+        <div class="image-container">
+            <img alt="">
+        </div>
+        <div class="music-details">
+            <p class="music-name">Music name</p>
+            <p class="music-artist">Artist</p>
+        </div>
+        <audio src=""></audio>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <div class="times">
+            <span class="current-time">00:00</span>
+            <span class="duration">00:00</span>
+        </div>
+        <div class="btns">
+            <span class="material-symbols-outlined repeat">
+                repeat
+            </span>
+            <span class="material-symbols-outlined prev">
+                skip_previous
+            </span>
+            <span class="material-symbols-outlined play-pause">
+                play_arrow
+            </span>
+            <span class="material-symbols-outlined next">
+                skip_next
+            </span>
+            <span class="material-symbols-outlined shuffle">
+                shuffle
+            </span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
